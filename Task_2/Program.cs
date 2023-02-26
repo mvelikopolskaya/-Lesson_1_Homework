@@ -1,9 +1,10 @@
-﻿Console.Write("Введите значение переменной a = ");
+﻿Console.Write("Введите переменную a = ");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите значение переменной b = ");
+Console.Write("Введите переменную b = ");
 int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
-if (a > b) 
+
+if (a > b)
 {
     max = a;
 }
@@ -11,5 +12,5 @@ else
 {
     max = b;
 }
-Console.Write("max = ");
-Console.Write(max);
+
+Console.WriteLine($"max = {max}");
